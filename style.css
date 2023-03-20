@@ -17,6 +17,15 @@ body{
     border-radius: 12px;
 }
 
+.conteudo h1{
+    text-align: center;
+}
+
+.conteudo h4{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 .topo{
     display: flex;
     justify-content: space-between;

@@ -8,6 +8,12 @@ let btnAtualizarTarefa = document.querySelector("#btnAtualizarTarefa");
 let idTarefaEdicao = document.querySelector("#idTarefaEdicao");
 let inputTarefaNomeEdicao = document.querySelector("#inputTarefaNomeEdicao");
 
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("data").innerHTML = month + "/" + day + "/" + year;
+
 inputNovaTarefa.addEventListener('keypress', (e) =>{
     if(e.keyCode == 13){
         let tarefa = {
